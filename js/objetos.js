@@ -12,8 +12,14 @@ const producto = {
 
 console.log(producto)
 
-console.log(producto.nombreProducto)
-console.log(producto.precio)
-console.log(producto.disponible)
+// console.log(producto.nombreProducto)
+// console.log(producto.precio)
+// console.log(producto.disponible)
+// console.log(producto["precio"]) // También debe funcionar como las alternativas de arriba
 
-console.log(producto["precio"]) // También debe funcionar como las alternativas de arriba
+// Agregar nuevas propiedades
+producto.imagen = "imagen.jpg" // se agregó la propidad imagen que no existia en el objeto original
+
+// Eliminar propiedades
+delete producto.disponible
+console.log(producto)
