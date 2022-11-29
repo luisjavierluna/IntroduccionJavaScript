@@ -26,3 +26,27 @@ const carrito = [
 for (let i = 0; i < carrito.length; i++) {
     console.log( carrito[i].nombre)
 }
+
+// While Loop
+    // Primero decide si la condición se cumple y después ejecuta el loop o no si la condición no se cumple
+
+// let i = 20 // Indice
+
+// while (i < 10) { // Condición
+//     console.log('Desde el While loop')
+
+//     i++ // Incremento
+// }
+
+
+
+// Do While Loop 
+    // Ejecuta el código al menos una vez y después evalua si aplicar el loop o no
+
+let i = 100
+
+do {
+    console.log(i)
+
+    i++
+} while (i < 10)
